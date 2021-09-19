@@ -1,0 +1,13 @@
+.profileWrapper {
+  height: calc(100vh - 50px);
+  display: flex;
+}
+
+.profileContainer {
+  overflow-y: scroll;
+  flex: 7;
+}
+
+.profileMiddleSection {
+  display: flex;
+}

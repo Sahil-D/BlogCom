@@ -1,0 +1,58 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+.messageTop {
+  display: flex;
+}
+
+.messageImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.messageText {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px;
+  background-color: dodgerblue;
+  border-radius: 12px;
+  color: white;
+  text-align: justify;
+  max-width: 50%;
+}
+
+.messageBottom {
+  display: flex;
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+.message.own {
+  align-items: flex-end;
+}
+
+.message.own .messageTop {
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+.message.own .messageImage {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.message.own .messageText {
+  background-color: rgba(210, 214, 213, 0.925);
+  color: black;
+}
+
+.message.own .messageBottom {
+  margin-left: 0px;
+  margin-right: 40px;
+}

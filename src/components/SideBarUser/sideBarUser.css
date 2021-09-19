@@ -1,0 +1,24 @@
+.sideBarUser {
+  display: flex;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 96%;
+  align-self: center;
+  align-items: center;
+  border-bottom: 1px solid dodgerblue;
+  cursor: pointer;
+}
+
+.sideBarUserImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sideBarUserName {
+  color: black;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 550;
+}

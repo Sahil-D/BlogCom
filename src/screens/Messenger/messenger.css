@@ -1,0 +1,133 @@
+.messengerWrapper {
+  height: calc(100vh - 50px);
+  display: flex;
+}
+
+.chatMenu {
+  flex: 2;
+}
+
+.chatMenuWrapper {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.menuInput {
+  padding: 6px;
+  width: 94%;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.menuInput:focus {
+  outline: none;
+}
+
+.errorMsg {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.conversationDiv {
+  width: 100%;
+}
+
+.conversationDiv.selected {
+  background-color: rgba(210, 214, 213, 0.925);
+}
+
+.chatBox {
+  flex: 5;
+}
+
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  align-self: center;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+}
+
+.chatBoxTop {
+  height: calc(100vh - 90px - 50px);
+  padding-bottom: 10px;
+  overflow-y: scroll;
+}
+
+.chatBoxBottom {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.noCurrentChat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+}
+
+.noMessages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(100vh - 180px);
+}
+
+.messageBody {
+  flex: 12;
+  border: 1px solid black;
+  border-radius: 8px;
+  outline: none;
+  padding: 6px;
+  resize: none;
+}
+
+.messageBody:focus {
+  outline: none;
+}
+
+.buttonSection {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sendMessageButton {
+  padding: 4px;
+  padding-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sendMessageButton:focus {
+  border: none;
+  outline: none;
+}

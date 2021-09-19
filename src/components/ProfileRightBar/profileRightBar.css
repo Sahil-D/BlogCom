@@ -1,0 +1,59 @@
+.profileRight {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  align-self: flex-start;
+}
+
+.friendsText {
+  font-weight: 500;
+  margin: 8px;
+}
+
+.friendsZone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.oneFriend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.friendImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.friendName {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+
+.fetchingFriendsError {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nofriendsText {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}

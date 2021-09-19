@@ -1,0 +1,112 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.leftPart,
+.rightPart {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightPart {
+  flex: 2;
+  background-color: dodgerblue;
+  align-items: center;
+}
+
+.loginLogo {
+  color: dodgerblue;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-left: 15%;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 15%;
+}
+
+.loginBox {
+  width: 85%;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.loginInput {
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  margin: 8px;
+}
+
+.loginButton {
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #12c453;
+  background-color: #12c453;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  margin: 8px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.loginButton:focus {
+  outline: none;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.createAccountButton {
+  outline: none;
+  cursor: pointer;
+  border: 1px solid dodgerblue;
+  background-color: dodgerblue;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  margin: 8px;
+  color: white;
+  font-weight: 500;
+  align-self: center;
+  width: 60%;
+}
+
+.createAccountButton:focus {
+  outline: none;
+}
+
+.createAccountButton:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  margin-bottom: 8px;
+  font-size: 14px;
+  align-self: center;
+  color: dodgerblue;
+  list-style: none;
+}

@@ -1,0 +1,65 @@
+.sidebar {
+  flex: 2;
+  background-color: rgba(210, 214, 213, 0.925);
+  overflow-y: scroll;
+}
+
+.sideBarList {
+  padding: 10px;
+}
+
+.sideBarListTop {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.listItemName {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+.sideBarListBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.connectText {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.sideBarUserList {
+  display: flex;
+  flex-direction: column;
+}
+
+.allFollowingText {
+  font-size: 16px;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.fetchingCircle {
+  margin-top: 12px;
+  align-content: center;
+  text-align: center;
+}
+
+.errorMsg {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
