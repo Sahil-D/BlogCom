@@ -1,5 +1,11 @@
 # BlogCom
 
+BlogCom is a social website where one can post or read 
+blogs and connect people across and chat with 
+them.
+
+website link : https://blog-com.herokuapp.com/
+
 ## Steps to clone
 
 ### 1. git clone 'dir'
