@@ -1,7 +1,7 @@
 # BlogCom
 
 BlogCom is a social website where one can post or read 
-blogs and connect people across and chat with 
+blogs and connect people across world and chat with 
 them.
 
 website link : https://blog-com.herokuapp.com/
@@ -17,5 +17,6 @@ Above command will run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
-You will also see any lint errors in the console.
+
+Note: For Backend part of this project visit -> https://github.com/Sahil-D/blogcom-service
 
